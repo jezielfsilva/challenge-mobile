@@ -148,7 +148,7 @@
     justify-content: space-around;
 }
 
-.title-tree {
+.title-tree, .title-five {
     font-size: 3em;
     width: 80vw;
     display: flex;
@@ -204,4 +204,175 @@
     background-image: url('../assets/img/portfolio/submarine.jpg');
     background-size: cover;
     background-position: 50%;
+}
+
+.container-tree {
+    width: 100%;
+    height: 120vh;
+    background-color: #383a3a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-four {
+    font-size: 3em;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.box-texts {
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text, .text-two {
+    font-size: 1.5em;
+    color: #ffffff;
+    width: 76vw;
+    margin-top: 1em;
+}
+
+.container-four {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-contact {
+    width: 90vw;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-phone, .box-email {
+    width: 50vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smart, .letter {
+    width: 22vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: #f85206;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8em;
+    color: #ffffff;
+}
+
+.text-phone, .text-email {
+    color:#6c757d;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.number, .email {
+    font-size: 1.5em;
+    color: #f85206;
+}
+
+.container-five {
+    width: 100%;
+    height: 120vh;
+    background-color: #f85206;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-address {
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-loc {
+    font-size: 2.6em;
+    color: #ffffff;
+}
+
+.text-address {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.box-web {
+    width: 90vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-web {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.box-icons-web {
+    width: 62vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-web {
+    width: 12.5vw;
+    height: 9vh;
+    border: 1.8px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.box-about {
+    width: 90vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-about {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.text-about {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.final-container {
+    width: 100%;
+    height: 14vh;
+    background-color: #1a252f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
