@@ -83,16 +83,125 @@
 
 .box-main-photo {
     width: 80%;
-    background-color: azure;
+}
+
+.photo-main {
+    width: 100%;
 }
 
 .title-two {
     font-size: 4em;
     width: 80vw;
+    color: #ffffff;
     display: flex;
     justify-content: center;
 }
 
-.photo {
-    width: 20%;
+.box-star {
+    width: 62vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.trace {
+    width: 22vw;
+    height: 0.6vh;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.trace-two {
+    width: 22vw;
+    height: 0.6vh;
+    border-radius: 2px;
+    background-color: #f85206;
+}
+
+.star {
+    width: 25%;
+    color: #ffffff;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.star-two {
+    width: 25%;
+    color: #f85206;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title {
+    color: #ffffff;
+    font-size: 1.4em;
+}
+
+.container-two {
+    width: 100%;
+    height: 334vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-tree {
+    font-size: 3em;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    color: #f85206;
+}
+
+.port-photo {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/cabin.jpg');
+    background-size: cover;
+}
+
+.port-photo2 {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/cake.jpg');
+    background-size: cover;
+}
+
+.port-photo3 {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/circus.jpg');
+    background-size: cover;
+}
+
+.port-photo4 {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/game.jpg');
+    background-size: cover;
+}
+
+.port-photo5 {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/safe.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+
+.port-photo6 {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    background-image: url('../assets/img/portfolio/submarine.jpg');
+    background-size: cover;
+    background-position: 50%;
 }
