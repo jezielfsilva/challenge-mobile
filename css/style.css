@@ -18,11 +18,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 1px 1px 2px #000000;
     position: fixed;
     z-index: 1030;
-    right: 0;
-    left: 0;
-    top: 0;
 }
 
 .box-nav {
@@ -38,6 +36,7 @@
     height: 6vh;
     color: #ffffff;
     font-size: 1.25rem;
+    font-family: 'SB Heading';
     font-weight: 700;
     padding-left: 0.5em;
 }
@@ -69,11 +68,13 @@
 
 .list-item {
     margin-top: 1.2em;
+    font-family: 'SB Heading';
+    font-weight: 700;
 }
 
 .container-one {
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     background-color: #383a3a;
     display: flex;
     flex-direction: column;
@@ -90,7 +91,9 @@
 }
 
 .title-two {
-    font-size: 4em;
+    font-size: 3em;
+    font-family: 'SB Heading';
+    font-weight: 700;
     width: 80vw;
     color: #ffffff;
     display: flex;
@@ -102,6 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 2em;
 }
 
 .trace {
@@ -137,6 +141,8 @@
 .sub-title {
     color: #ffffff;
     font-size: 1.4em;
+    font-family: 'SB Body';
+    font-weight: 300;
 }
 
 .container-two {
@@ -149,7 +155,9 @@
 }
 
 .title-tree, .title-five {
-    font-size: 3em;
+    font-size: 2.4em;
+    font-family: 'SB Heading';
+    font-weight: 700;
     width: 80vw;
     display: flex;
     justify-content: center;
@@ -208,20 +216,22 @@
 
 .container-tree {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     background-color: #383a3a;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .title-four {
     font-size: 3em;
+    font-family: 'SB Heading';
+    font-weight: 700;
     width: 80vw;
     display: flex;
     justify-content: center;
     color: #ffffff;
+    margin-top: 2em;
 }
 
 .box-texts {
@@ -233,7 +243,9 @@
 }
 
 .text, .text-two {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-family: 'SB Body';
+    font-weight: 300;
     color: #ffffff;
     width: 76vw;
     margin-top: 1em;
@@ -280,12 +292,16 @@
 .text-phone, .text-email {
     color:#6c757d;
     margin-top: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-family: 'SB Body';
+    font-weight: 400;
 }
 
 .number, .email {
     font-size: 1.5em;
     color: #f85206;
+    font-family: 'SB Body';
+    font-weight: 700;
 }
 
 .container-five {
@@ -307,26 +323,34 @@
 }
 
 .title-loc {
-    font-size: 2.6em;
+    font-size: 1.8em;
     color: #ffffff;
+    font-family: 'SB Heading';
+    font-weight: 700;
+    padding: 1em;
 }
 
 .text-address {
     color: #ffffff;
     font-size: 1.4em;
+    font-family: 'SB Body';
+    font-weight: 300;
 }
 
 .box-web {
     width: 90vw;
-    height: 18vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title-web {
-    font-size: 2.5em;
+    font-size: 1.8em;
     color: #ffffff;
+    font-family: 'SB Heading';
+    font-weight: 700;
+    padding: 0.7em;
 }
 
 .box-icons-web {
@@ -358,19 +382,27 @@
 }
 
 .title-about {
-    font-size: 2.5em;
+    font-size: 1.8em;
     color: #ffffff;
+    font-family: 'SB Heading';
+    font-weight: 700;
+    padding: 0.7em;
 }
 
 .text-about {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #ffffff;
+    font-family: 'SB Body';
+    font-weight: 300;
 }
 
 .final-container {
     width: 100%;
     height: 14vh;
     background-color: #1a252f;
+    font-size: 0.9em;
+    font-family: 'SB Body';
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
