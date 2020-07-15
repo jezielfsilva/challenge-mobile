@@ -539,12 +539,17 @@
 }
 
 @media(max-width: 1367px) {
+    .container-nav {
+        height: 14vh;
+    }
+
     .box-nav {
         width: 80%;
         align-items: center;
     }
 
     .title {
+        font-size: 1.8rem;
         height: unset;
         padding-left: unset;
     }
@@ -567,12 +572,94 @@
         width: 25vw;
     }
 
-    .trace {
+    .trace, .trace-two {
         width: 10vw;
     }
 
     .box-sub-title {
         width: 32vw;
         justify-content: space-between;
+    }
+
+    .container-two {
+        height: 130vh;
+    }
+
+    .title-tree {
+        font-size: 2.8em;
+    }
+
+    .container-photos {
+        height: 82vh;
+    }
+
+    .port-photo, .port-photo2, .port-photo3, .port-photo4, .port-photo5, .port-photo6 {
+        width: 26vw;
+        height: 34vh;
+    }
+
+    .container-tree {
+        justify-content: center;
+    }
+
+    .box-texts {
+        width: 60vw;
+    }
+
+    .text, .text-two {
+        width: 26vw;
+    }
+
+    .container-four {
+        height: 80vh;
+    }
+
+    .title-five {
+        font-size: 2.9em;
+    }
+
+    .box-contact {
+        width: 44vw;
+        height: 28vh;
+    }
+
+    .box-phone, .box-email {
+        width: 16vw;
+        height: 25vh;
+    }
+
+    .smart, .letter {
+        width: 6.5vw;
+        height: 12vh;
+    }
+
+    .number, .email {
+        font-size: 1.3em;
+    }
+
+    .container-five {
+        height: 46vh;
+        flex-direction: unset;
+    }
+
+    .box-address {
+        height: 26.6vh;
+    }
+
+    .box-web {
+        height: 20vh;
+    }
+
+    .box-icons-web {
+        width: 21vw;
+    }
+
+    .icon-web {
+        width: 4.5vw;
+        height: 8.5vh;
+    }
+
+    .final-container {
+        height: 11vh;
     }
 }
