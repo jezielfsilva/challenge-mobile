@@ -551,7 +551,7 @@ a:hover {
     }
 }
 
-@media(max-width: 1367px) {
+@media(min-width: 1024px) {
     .container-nav {
         height: 14vh;
     }
