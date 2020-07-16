@@ -253,6 +253,24 @@ a:hover {
     background-position: 50%;
 }
 
+.overlay {
+    width: 86vw;
+    height: 42vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    color: transparent;
+    transition: .3s;
+}
+
+.overlay:hover {
+    color: #ffffff;
+    background-color: #383a3a;
+    opacity: 0.96;
+}
+
 #container-tree {
     width: 100%;
     height: 140vh;
@@ -410,6 +428,12 @@ a:hover {
     justify-content: center;
     color: #ffffff;
     font-size: 1.5em;
+    transition: .15s;
+}
+
+.icon-web:hover {
+    background-color: #ffffff;
+    color: #f85206;
 }
 
 .box-about {
@@ -502,6 +526,10 @@ a:hover {
     }
 
     .port-photo, .port-photo2, .port-photo3, .port-photo4, .port-photo5, .port-photo6 {
+        width: 40vw;
+    }
+
+    .overlay {
         width: 40vw;
     }
 
@@ -611,6 +639,11 @@ a:hover {
         height: 34vh;
     }
 
+    .overlay {
+        width: 26vw;
+        height: 34vh;
+    }
+
     #container-tree {
         justify-content: center;
     }
@@ -642,8 +675,9 @@ a:hover {
     }
 
     .smart, .letter {
-        width: 6.5vw;
+        width: 6.2vw;
         height: 12vh;
+        font-size: 2em;
     }
 
     .number, .email {
@@ -656,20 +690,45 @@ a:hover {
     }
 
     .box-address {
-        height: 26.6vh;
+        height: 24.4vh;
+    }
+
+    .title-loc {
+        font-size: 1.5em;
+    }
+
+    .text-address {
+        font-size: 1.3em;
     }
 
     .box-web {
         height: 20vh;
     }
 
+    .title-web {
+        font-size: 1.5em;
+    }
+
     .box-icons-web {
-        width: 21vw;
+        width: 18vw;
     }
 
     .icon-web {
-        width: 4.5vw;
-        height: 8.5vh;
+        width: 4vw;
+        height: 8vh;
+        font-size: 1.3em;
+    }
+
+    .box-about {
+        height: 19vh;
+    }
+
+    .title-about {
+        font-size: 1.5em;
+    }
+
+    .text-about {
+        font-size: 1.2em;
     }
 
     .final-container {
