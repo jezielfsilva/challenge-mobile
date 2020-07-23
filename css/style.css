@@ -15,6 +15,7 @@ a {
 
 a:hover {
     color: #383a3a;
+    transition-duration: 0.2s;
 }
 
 #page-top {
@@ -359,6 +360,13 @@ a:hover {
     color: #f85206;
     font-family: 'SB Body';
     font-weight: 700;
+}
+
+.email:hover {
+    color: #d64603;
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: 0.1px 0.1px 0.1px #2c2c2c;
 }
 
 .container-five {
